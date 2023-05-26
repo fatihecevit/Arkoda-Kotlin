@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ArkOda</string>
+    <string-array name="sınıflar">
+        <item>" "</item>
+        <item>Hazırlık</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="durum">
+        <item>" "</item>
+        <item>Kalacak Ev/Oda Arıyor</item>
+        <item>Ev/Oda Arkadaşı Arıyor</item>
+        <item>Aramıyor</item>
+    </string-array>
+    <string-array name="durum2">
+
+        <item>"Herkesi Listele"</item>
+        <item>Ev/Oda Sahiplerini Listele</item>
+        <item>Ev/Oda Arayanları Listele</item>
+    </string-array>
+    <string name="durum_hint">Durumunuzu Seçiniz</string>
+    <string name="sınıf_hint">Kaçıncı Sınıf Olduğunuzu Giriniz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_kayit_ol">ActivityKayitOl</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

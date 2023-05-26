@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <TextView
+                android:id="@+id/talepAdSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:text="Ad Soyad"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/talepbolum"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:padding="8dp"
+                    android:text="Bölüm"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/talepsınıf"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:padding="8dp"
+                    android:text="Sınıf"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/talepsure"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:text="Süre"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/talepkabulEt"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle_button_1"
+                android:text="Onayla"
+                android:textColor="#FFFFFF"
+                android:typeface="monospace" />,
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/talepreddet"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/circle_button_2"
+                android:text="Reddet"
+                android:textColor="#FFFFFF"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

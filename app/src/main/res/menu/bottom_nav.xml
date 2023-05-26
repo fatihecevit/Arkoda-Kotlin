@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profilim"
+        android:textColor="#000000"
+        android:textColorHint="@color/grey"
+        />
+    <item
+        android:id="@+id/menu_ogrenciler"
+        android:title="Öğrenciler"
+        android:textColor="#000000"
+        android:textColorHint="@color/grey"
+        />
+    <item
+        android:id="@+id/menu_talepler"
+        android:title="Talepler"
+        android:textColor="#000000"
+        android:textColorHint="@color/grey"
+        />
+
+</menu>

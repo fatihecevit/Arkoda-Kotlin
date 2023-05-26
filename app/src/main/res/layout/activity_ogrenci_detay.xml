@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/tdurumSonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="BU KULLANICI EV ARKADAŞI BULMUŞTUR !!"
+            android:textColor="#B80707"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/detayImage"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/profil"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#3F51B5"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tkisiselbilgiler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Kişisel Bilgiler"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tAdSoyad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewAdSoyad"
+                android:text="Ad Soyad"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_numbers_24"
+            android:paddingLeft="8dp"
+            android:textColor="#AEAEAF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewUid"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:text="Uid"
+            android:textColor="#AEAEAF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tBolum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_cast_for_education_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewBolum"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Bölüm"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tsinif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_list_number_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewSinif"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Sınıf"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tevdurum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Ev Durumu"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tdurum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_home_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewDurum"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Durum"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tuzaklik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_road_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewUzaklik"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Uzaklık"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tsure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_calendar_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewSure"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Süre"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendtalep"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arkodaborder"
+            android:text="Talep Gönder"
+            android:textColor="#081661"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tiletisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="İletişim Bilgileri "
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tIletisimMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewIletisimMail"
+                android:text="Mail Adresi"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tIletisimTelNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_phone_android_24"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewIletisimTelNo"
+                android:text="Telefon Numarası"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#081661"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendmail"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arkodaborder"
+            android:text="Mail Gönder"
+            android:textColor="#081661"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendwhatsapp"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/arkodaborder"
+            android:text="WHATSAPP"
+            android:textColor="#081661"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556953907127",
+    "project_id": "arkoda-81d02",
+    "storage_bucket": "arkoda-81d02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556953907127:android:62fdb5ab718531099ac232",
+        "android_client_info": {
+          "package_name": "com.example.arkoda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556953907127-geppsrljke5rqb2m99agfqjeib217st0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALu6lcx_wo44oj9oIqfnEuZ0M_z8Vlg58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556953907127-geppsrljke5rqb2m99agfqjeib217st0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
